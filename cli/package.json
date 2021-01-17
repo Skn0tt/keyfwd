@@ -1,6 +1,6 @@
 {
   "name": "keyfwd",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A remote keyboard forwarder, built on web technology.",
   "repository": {
     "type": "git",
@@ -17,7 +17,9 @@
     "build": "tsc",
     "prepack": "npm run build"
   },
-  "bin": "dist/index.js",
+  "bin": {
+    "keyfwd": "dist/index.js"
+  },
   "dependencies": {
     "chalk": "^4.1.0",
     "haikunator": "^2.1.2",
