@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import robot from "robotjs";
 import Pusher from "pusher-js";
 import Haikunator from "haikunator";
